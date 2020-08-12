@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Survey</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name"><u><strong>Enter your name:</strong></u></label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="food"><u><strong>Which food is your favorite:</strong></u></label>
+          <select id="food" class="form-control">
+            <option>Pizza</option>
+            <option>Burrito</option>
+            <option>Hamburger</option>
+            <option>Croissant</option>
+          </select>
+        </div>
+        <label><u><strong>What's your favorite type of music:</strong></u></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="rock" checked>
+            Rock & Roll
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="edm">
+            Electro Dance Music
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="country">
+            Country
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="dob"><u><strong>Date of Birth:</strong></u></label>
+          <input id="dob" class="form-control" type="date">
+        </div>
+        <div class="form-group">
+          <label for="color"><u><strong>What's your favorite Color:</strong></u></label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <button type="submit" class="btn" id="button">Submit.</button>
+      </form>
+    </div>
+
+      <div id="output" class="card">
+        <!-- <div class="card-body">
+          <h2 class="card-title"><u>Your appointment has been scheduled.</u></h2>
+          <p class="card-text">Appointment For <span class="name"></span>, has been scheduled for the following reason: <span class="reason"></span>. This appointment will take place on <span class="date"></span>, at <span class="time"></span>.</p>
+        </div> -->
+      </div>
+  </div>
+  
+</body>
+</html>

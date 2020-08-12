@@ -1,0 +1,15 @@
+h1 {
+  font-size: 80px;
+  color: gray;
+  text-shadow: black 2px 2px 2px;
+}
+
+#output {
+  display: none;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+#button {
+  border: 1px solid black;
+}
